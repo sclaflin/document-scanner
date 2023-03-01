@@ -11,9 +11,6 @@ let outputText = document.getElementById('outputText');
 const openCvReady = () => {
 	scanner = new DocumentScanner(cv);
 
-	const img = document.createElement('canvas');
-	document.body.appendChild(img);
-
 	// load the image when one is selected
 	inputElement.addEventListener('change', (e) => {
 		imgElement.src = URL.createObjectURL(e.target.files[0]);
