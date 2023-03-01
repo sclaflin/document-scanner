@@ -1,6 +1,6 @@
 {
   "name": "@sclaflin/document-scanner",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Detect the largest document within an image",
   "main": "DocumentScanner.js",
   "scripts": {
